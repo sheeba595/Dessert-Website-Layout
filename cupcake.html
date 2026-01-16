@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CupCakes</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./cupcake.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="modal-overlay" id="overlay-1">
+  <div class="modal">
+    <button class="close" onclick="closeModal()">×</button>
+    <h2>Login / Sign Up</h2>
+    <input id="e-mail" type="number" placeholder="Enter Email ID">
+    <span id="toggleLink" class="link">With Mobile</span>
+    <button class="getotp">Get OTP →</button>
+    <p>
+      By continuing I agree to The Dessert House’s Terms and Conditions and Privacy Policy.
+    </p>
+  </div>
+</div>
+
+    <!-- 710125, D72D52, F8EBEB, FFCCCC -->
+
+    <header id="header">
+
+        <div class="logo" >
+           <a href="./index.html"> <img src="./images/logo.png" alt="logo" class="logo"></a>
+        </div>
+      <div class="menu">
+            <a href="./about-us.html">About Us</a>
+            <a href="javascript:void(0)" onclick="toggleDesserts()">Desserts</a>
+            <a href="./contact.html">Contact </a>
+            <div id="dessert-dropdown">
+    <a href="./all-desserts.html">All Desserts</a>
+    <a href="./pastry.html">Pastry</a>
+    <a href="./brownie.html">Brownies</a>
+    <a href="./tart.html">Tart</a>
+    <a href="./tea-cake.html">Tea Cake</a>
+    <a href="./cupcake.html">Cup Cake</a>
+    <a href="./jar-cake.html">Jar Cake</a>
+    <a href="./combo.html">Combos</a>
+</div></div>
+      <div class="search" onclick="toggleSearch()">
+            Search &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa-solid fa-magnifying-glass"></i>
+  <div class="search-part" id="searchBox">
+    <div class="eng"><a href="./brownie.html">Brownie</a></div>
+    <div class="eng"><a href="./pastry.html">Pastry</a></div>
+    <div class="eng"><a href="./cupcake.html">Cupcake</a></div>
+    <div class="eng"><a href="./tart.html">Tart</a></div>
+    <div class="eng"><a href="./tea-cake.html">Tea Cake</a></div>
+    <div class="eng"><a href="./jar-cake.html">Jar Cake</a></div>
+  </div>
+        </div>
+       <div   onclick="openModal()" class="login open-btn">
+            Login/Sign Up
+      
+    </header>
+    <h1 style="color: #710125;text-align:center;margin-top:30px;">Cup Cakes</h1>
+
+  
+ <div class="desserts">
+    <div class="dessert-solo">
+                            <img src="./images/kit-cup-1.png" alt="butter" class="desert" data-images="./images/kit-cup-2.png,./images/kit-cup-1.png">
+                <h3 style="color:#710125;">KitKat Cupcakes</h3>
+                <h3>Rs.99/-</h3>
+                <a href="./order-online.html"><button>Order Online</button></a>
+            </div>
+            <div class="dessert-solo">
+                            <img src="./images/oreo-1.png" alt="butter" class="desert" data-images="./images/oreo-2.png,./images/oreo-1.png">
+                <h3 style="color:#710125;">Oreo Cream Cupcake</h3>
+                <h3>Rs.99/-</h3>
+                <a href="./order-online.html"><button>Order Online</button></a>
+            </div>
+            <div class="dessert-solo">
+                            <img src="./images/pine-1.png" alt="butter" class="desert" data-images="./images/pine-2.png,./images/pine-1.png">
+                <h3 style="color:#710125;">Pineapple Cupcake</h3>
+                <h3>Rs.99/-</h3>
+                <a href="./order-online.html"><button>Order Online</button></a>
+            </div>
+             <div class="dessert-solo">
+                            <img src="./images/kit-cup-1.png" alt="butter" class="desert" data-images="./images/kit-cup-2.png,./images/kit-cup-1.png">
+                <h3 style="color:#710125;">KitKat Cupcakes</h3>
+                <h3>Rs.99/-</h3>
+                <a href="./order-online.html"><button>Order Online</button></a>
+            </div>
+            <div class="dessert-solo">
+                            <img src="./images/oreo-1.png" alt="butter" class="desert" data-images="./images/oreo-2.png,./images/oreo-1.png">
+                <h3 style="color:#710125;">Oreo Cream Cupcake</h3>
+                <h3>Rs.99/-</h3>
+                <a href="./order-online.html"><button>Order Online</button></a>
+            </div>
+            <div class="dessert-solo">
+                            <img src="./images/pine-1.png" alt="butter" class="desert" data-images="./images/pine-2.png,./images/pine-1.png">
+                <h3 style="color:#710125;">Pineapple Cupcake</h3>
+                <h3>Rs.99/-</h3>
+                <a href="./order-online.html"><button>Order Online</button></a>
+            </div>
+ </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <h1>Quick Links</h1>
+     <div class="footer-part">
+           <div class="footer-1">
+            <a href="./index.html">            <img src="./images/logo.png" alt="logo" class="footer-logo">
+</a>
+        </div>
+        <div class="footer-2">
+            <ul>
+               <li><a href="./about-us.html">About Us  </a></li>
+                <li><a href="./all-desserts.html">Desserts</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./blogs.html">Blogs</a></li>
+            </ul>
+        </div>
+        <div class="footer-2">
+          <ul>
+              <li><a href="./faq.html">FAQ</a></li>
+            <li><a href="./privacy-policy.html">Privacy Policy</a></li>
+            <li><a href="./term.html">Terms & Conditions</a></li>
+            <li><a href="./refund.html">Refund Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-3">
+            <ul>
+                <li>  <i class="fa-solid fa-phone"></i> +987 456 1230</li>
+                <li>  <i class="fa-solid fa-envelope"></i> Contact@desserthouse.in</li>
+                <div class="icons">
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+
+                </div>
+            </ul>
+        </div>
+     </div>
+    </footer>
+<div class="copy">
+    2024@thedesserthouse.in
+</div>
+ <script>
+    function openModal(){
+  document.getElementById("overlay-1").style.display = "flex";
+}
+function closeModal(){
+  document.getElementById("overlay-1").style.display = "none";
+}
+ </script>
+</body>
+<script src="./script.js"></script>
+</html>
